@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfDaoLongevity": {
+        "@id": "https://raw.githubusercontent.com/sperienz/BONDCredential/main/proof-of-dao-longevity.jsonld#ProofOfDaoLongevity",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/sperienz/BONDCredential/blob/main/proof-of-dao-longevity-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "entryDate": {
+            "@id": "vocab:entryDate",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
